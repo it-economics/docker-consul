@@ -72,3 +72,5 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 # everything in RAM, exposes a web UI and HTTP endpoints, and bootstraps itself.
 # Don't use this configuration for production.
 CMD ["agent", "-dev", "-client", "0.0.0.0"]
+
+USER 1001
